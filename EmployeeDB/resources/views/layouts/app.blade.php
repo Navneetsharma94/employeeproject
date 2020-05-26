@@ -15,7 +15,8 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
@@ -77,61 +78,7 @@
 
         <main class="py-4">
             @yield('content')
-            <div class="container">
-                <form>
-                    <div class="form-row">
-                        <br>
-                        <div class="form-group col-md-6">
-                            <div class="searchbox">
-                                <label for="inputEmail4">Personnel Number</label>
-                                <input class="form-control mr-sm-2" type="search" placeholder="personnel number" aria-label="Search">
-                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                            </div>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputPassword4">Claim Number</label>
-                            <input type="text" class="form-control" id="inputPassword4" placeholder="Claim number">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <br>
-                        <div class="form-group col-md-6">
-                        <label for="inputEmail4">EmployeeName</label>
-                        <input type="text" class="form-control" id="inputEmail4" placeholder="employee name">
-                        </div>
-                        <div class="form-group col-md-6">
-                        <label for="inputPassword4">Designation</label>
-                        <input type="text" class="form-control" id="inputPassword4" placeholder="Designation">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <br>
-                        <div class="form-group col-md-6">
-                        <label for="inputAddress">Basic Pay(as on 01-04-2019)</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="">
-                        </div>
-                        <div class="form-group col-md-6">
-                        <label for="inputPassword4">Place of Duty</label>
-                        <input type="text" class="form-control" id="inputPassword4" placeholder="Place of Duty">
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="form-row">
-                        <br>
-                        <div class="form-group col-md-6">
-                        <label for="inputAddress">Name of Patient</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="">
-                        </div>
-                        <div class="form-group col-md-6">
-                        <label for="inputPassword4">Relationship With Employee</label>
-                        <input type="text" class="form-control" id="inputPassword4" placeholder="">
-                        </div>
-                    </div>
-                   
-
-                    <button type="submit" class="btn btn-primary">Save</button>
-                </form>
-            </div>
+           
         </main>
     </div>
 </body>

@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('employee', 'EmployeeData');
+Route::resource('employee', 'EmployeeController');
 
 Auth::routes();
 
